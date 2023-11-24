@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AI Chines Teacher</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+  </head>
+  <body>
+    
+
+
+    <div id="chat-history-sidebar" class="chat-history-sidebar">
+      <div class="chat-history-content">
+          <!-- Chat history will be populated here -->
+      </div>
+  </div>
+  
+  <!-- Sidebar toggle button -->
+  <span id="sidebar-toggle" class="material-symbols-rounded">history</span>
+
+    <!-- Chats container -->
+    <div class="chat-container"></div>
+    
+    <!-- Typing container -->
+    <div class="typing-container">
+      <div class="typing-content">
+        <div class="typing-textarea">
+          <textarea id="chat-input" spellcheck="false" placeholder="Enter a prompt here" required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
+        </div>
+        <div class="typing-controls">
+          <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+          <span id="delete-btn" class="material-symbols-rounded">delete</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
